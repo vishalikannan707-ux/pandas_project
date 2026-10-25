@@ -116,4 +116,4 @@ print(f"5. Highest Scorer: {top_scorer} (Total: {highest_total})")
 print("\n--- Bonus: Department-wise Analysis ---")
 
 dept_analysis = df.groupby("Department")[["Python", "ML", "Total", "Average"]].mean().round(2)
-print(dept_analysis)
+print(depart_analysis)
